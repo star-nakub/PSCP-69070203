@@ -15,40 +15,31 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-
+สลับตัวอักษร
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-
+541183
 ```
 
 OJ status:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass    
 ```
 
 Independent time spent on this problem:
 
 ```text
-
+~3 minutes
 ```
 
 Choose one:
 
 ```text
 0-15 minutes
-15-30 minutes
-30-60 minutes
-1-3 hours
-3-6 hours
-6-24 hours
-1-3 days
-4-7 days
-1-4 weeks
-More than 4 weeks
 ```
 
 How to count this time:
@@ -73,7 +64,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-
+โจทย์ให้รับค่ามาแล้วแสดงจากตัวท้ายมาตัวหน้า
 ```
 
 ---
@@ -93,9 +84,9 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:อ่านโจทย์และ testcase
+Step 2:เริ่มวิเคราห์และเขียนโค้ด
+Step 3:ดูผลลัพธ์
 ```
 
 ---
@@ -115,7 +106,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-
+รับ input แล้ว print หลังมาหน้าและเปลี่ยนเป็น lower case
 ```
 
 ---
@@ -135,31 +126,31 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-
+เพราะมี upper case
 ```
 
 Input:
 
 ```text
-
+Star
 ```
 
 Expected output:
 
 ```text
-
+rats
 ```
 
 Actual output:
 
 ```text
-
+rats
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +158,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+เพราะเป็น uppercase ทั้งหมด
 ```
 
 Input:
 
 ```text
-
+JOHN
 ```
 
 Expected output:
 
 ```text
-
+nhoj
 ```
 
 Actual output:
 
 ```text
-
+nhoj
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +190,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+เพระาเป็น sample testcase
 ```
 
 Input:
 
 ```text
-
+harry
 ```
 
 Expected output:
 
 ```text
-
+yrrah
 ```
 
 Actual output:
 
 ```text
-
+yrrah
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +224,7 @@ Pass / Not Pass
 Did you use AI for this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, also complete:
@@ -251,7 +242,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -276,19 +267,19 @@ Not allowed:
 Who helped you?
 
 ```text
-
+-
 ```
 
 What did they help with?
 
 ```text
-
+-
 ```
 
 What did you still do by yourself?
 
 ```text
-
+-
 ```
 
 Did you copy any code from another person?
