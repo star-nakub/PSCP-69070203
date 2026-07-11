@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-สลับตัวอักษร
+Colors
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-541183
+541444
 ```
 
 OJ status:
@@ -33,7 +33,7 @@ Pass
 Independent time spent on this problem:
 
 ```text
-~3 minutes
+~15 minutes
 ```
 
 Choose one:
@@ -64,7 +64,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-โจทย์ให้รับค่ามาแล้วแสดงจากตัวท้ายมาตัวหน้า
+โจทย์ให้รับค่าสี 2 สีแล้วนำมาผสมหากมีสีอื่นที่ไม่ใช่แม่สีมาผสม ให้ตอบว่า Error
 ```
 
 ---
@@ -106,7 +106,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-รับ input แล้ว print หลังมาหน้าและเปลี่ยนเป็น lower case
+รับ input แล้วใช้ list ในการเซฟค่าสีและ ใช้ if else ในการผสมสี (กรณีพิเศษสีเดิมผสมกันได้สีเดิม)
 ```
 
 ---
@@ -126,25 +126,26 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-เพราะมี upper case
+เพระาเป็น sample testcase
 ```
 
 Input:
 
 ```text
-Star
+Red
+Yellow
 ```
 
 Expected output:
 
 ```text
-rats
+Orange
 ```
 
 Actual output:
 
 ```text
-rats
+Orange
 ```
 
 Result:
@@ -158,25 +159,26 @@ Pass
 Why I chose this case:
 
 ```text
-เพราะเป็น uppercase ทั้งหมด
+เพระาเป็น sample testcase
 ```
 
 Input:
 
 ```text
-JOHN
+Yellow
+Blue
 ```
 
 Expected output:
 
 ```text
-nhoj
+Green
 ```
 
 Actual output:
 
 ```text
-nhoj
+Green
 ```
 
 Result:
@@ -196,19 +198,20 @@ Why I chose this case:
 Input:
 
 ```text
-harry
+Black
+Blue
 ```
 
 Expected output:
 
 ```text
-yrrah
+Error
 ```
 
 Actual output:
 
 ```text
-yrrah
+Error
 ```
 
 Result:
