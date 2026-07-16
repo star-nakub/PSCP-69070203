@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-สลับตัวอักษร
+Bill
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-541183
+541896
 ```
 
 OJ status:
@@ -33,7 +33,7 @@ Pass
 Independent time spent on this problem:
 
 ```text
-~3 minutes
+~10 minutes
 ```
 
 Choose one:
@@ -64,7 +64,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-โจทย์ให้รับค่ามาแล้วแสดงจากตัวท้ายมาตัวหน้า
+โจทย์ให้รวมค่าอาหาร + service charge (อย่างน้อย 50 มากสุด 1000) + Vat 10%
 ```
 
 ---
@@ -106,7 +106,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-รับ input แล้ว print หลังมาหน้าและเปลี่ยนเป็น lower case
+รับ input คิด service charge 10% จากราคาเต็ม ตั้งเงื่อนไขถ้า service charge น้อยกว่า 50 ให้ตั้งค่าเป็น 50 และถ้ามากกว่า 1000 ให้ตั้งเป็น 1000 และคิดราคา Net ตอนจบโดยเอาราคาเต็มบวกกับ service charge แลัวนำไปคูณ vat 7% และ print Net ทศนิยม 2 ตำแหน่ง
 ```
 
 ---
@@ -126,25 +126,25 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-เพราะมี upper case
+เพระาเป็น sample testcase
 ```
 
 Input:
 
 ```text
-Star
+100
 ```
 
 Expected output:
 
 ```text
-rats
+160.50
 ```
 
 Actual output:
 
 ```text
-rats
+160.50
 ```
 
 Result:
@@ -164,19 +164,19 @@ Why I chose this case:
 Input:
 
 ```text
-JOHN
+1888
 ```
 
 Expected output:
 
 ```text
-nhoj
+2222.18
 ```
 
 Actual output:
 
 ```text
-nhoj
+2222.18
 ```
 
 Result:
@@ -196,19 +196,19 @@ Why I chose this case:
 Input:
 
 ```text
-harry
+99999
 ```
 
 Expected output:
 
 ```text
-yrrah
+108068.93
 ```
 
 Actual output:
 
 ```text
-yrrah
+108068.93
 ```
 
 Result:
