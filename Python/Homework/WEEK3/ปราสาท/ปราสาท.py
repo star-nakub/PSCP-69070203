@@ -1,11 +1,10 @@
 """Tower"""
-n = int(input())
-row = 1
-while row * row < n:
-    row += 1
-if n == 1:
-    print(0)
-elif n % 2 == 1:
-    print(2 * row - 2)
+N = int(input())
+if N**0.5 == int(N**0.5): # หาแถว
+    cur = int((N**0.5) - 1)
 else:
-    print(2 * row - 3)
+    cur = int(N**0.5) # สามเหลี่ยมคว่ำกับหงาย
+if N % 2 == cur % 2 :
+    print(2 * cur - 1)
+else:
+    print(2 * cur)

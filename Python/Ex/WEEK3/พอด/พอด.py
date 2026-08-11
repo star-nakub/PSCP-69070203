@@ -1,7 +1,8 @@
 """port"""
-n, k = map(int, input().split())
-queue = [0] * k
-for i in range(n):
-    x = int(input())
-    queue[x - 1] += 1
-print(n - sum(x > 0 for x in queue))
+N, K = map(int,input().split())
+queue = [0] * K
+# for i in range(N):
+#     X = int(input())
+#     queue[X - 1] += 1
+# print(N - sum(X > 0 for X in queue))
+print(queue)
