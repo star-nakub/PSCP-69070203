@@ -1,8 +1,15 @@
 """port"""
-N, K = map(int,input().split())
-queue = [0] * K
-# for i in range(N):
-#     X = int(input())
-#     queue[X - 1] += 1
-# print(N - sum(X > 0 for X in queue))
-print(queue)
+N,K = map(int,input().split())
+L1 = []
+for x in range(K):
+    L1.append(int(x+1))
+L2 = []
+for _ in range(N):
+    if not _ :
+        pass
+    a = input()
+    L2.append(int(a))
+cont = [L2.count(n) for n in L1]
+total = sum(cont)
+left = total - K * min(cont)
+print(left)
