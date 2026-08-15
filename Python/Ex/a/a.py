@@ -1,16 +1,6 @@
-import math
-pushup = int(input())
-situp = int(input())
-updown = int(input())
-run = int(input())
-goal_pin1 = int(input())
-goal_sin1 = int(input())
-goal_uin1 = int(input())
-goal_rin1 = int(input())
-goal_p = math.ceil(pushup / goal_pin1)
-goal_s = math.ceil(situp / goal_sin1)
-goal_u = math.ceil(updown / goal_uin1)
-goal_r = math.ceil(run / goal_rin1)
-l = [goal_p, goal_s, goal_u, goal_r]
-l.sort()
-print(max(l))
+A = int(input())
+B = int(input())
+for i in range(A,B):
+    B += 1
+    print(i)
+print(A,B)
