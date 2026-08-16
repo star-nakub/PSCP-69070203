@@ -1,14 +1,9 @@
-"""twincode"""
 
-n = int(input())
-num1 = input()
-num2 = input()
-count = 0
-for i in range(n):
-    if int(num1[i]) + int(num2[i]) != 9:
-        count += 1
-
-if not count:
-    print("YES")
-else:
-    print("NO",count)
+text = "Hello World"
+length = len(text)
+if length > 5:
+    print(f"The text is too long: {length} characters")
+# With walrus operator
+# text = "Hello World"
+# if (length := len(text)) > 5:
+#     print(f"The text is too long: {length} characters")
