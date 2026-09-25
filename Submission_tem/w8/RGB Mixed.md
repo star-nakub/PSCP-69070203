@@ -21,7 +21,7 @@ OJ3296 - [LEARNING LOGS] RGB Mixed
 OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
-3296
+654863
 ```
 
 สถานะ OJ:
